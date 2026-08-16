@@ -1,0 +1,63 @@
+{
+    "name": "astermd/vrio-client",
+    "description": "Unofficial PHP client for the VRIO commerce API: campaigns, customers, offers, carts, discounts, orders and routes, with opt-in redacted request logging.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vrio",
+        "vrio-api",
+        "api-client",
+        "rest-client",
+        "ecommerce",
+        "orders",
+        "payments",
+        "checkout"
+    ],
+    "authors": [
+        {
+            "name": "AsterMD",
+            "email": "info@astermd.com"
+        }
+    ],
+    "support": {
+        "email": "info@astermd.com",
+        "issues": "https://github.com/astermd/vrio-client/issues",
+        "source": "https://github.com/astermd/vrio-client"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.2",
+        "phpunit/phpunit": "^12.0",
+        "squizlabs/php_codesniffer": "^3.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "AsterMD\\VrioClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AsterMD\\VrioClient\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs",
+        "lint:fix": "phpcbf",
+        "analyse": "phpstan analyse",
+        "test": "phpunit",
+        "gate": [
+            "@lint",
+            "@analyse",
+            "@test"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
