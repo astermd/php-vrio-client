@@ -16,13 +16,13 @@
     "authors": [
         {
             "name": "AsterMD",
-            "email": "info@astermd.com"
+            "email": "hello@astermd.com"
         }
     ],
     "support": {
-        "email": "info@astermd.com",
-        "issues": "https://github.com/astermd/vrio-client/issues",
-        "source": "https://github.com/astermd/vrio-client"
+        "email": "hello@astermd.com",
+        "issues": "https://github.com/astermd/php-vrio-client/issues",
+        "source": "https://github.com/astermd/php-vrio-client"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
