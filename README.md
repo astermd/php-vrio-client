@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://www.astermd.com/"><img src="https://raw.githubusercontent.com/astermd/php-vrio-client/main/.github/assets/astermd-logo.svg" alt="AsterMD" height="48"></a>
+</p>
+
 # astermd/vrio-client
 
 A small, dependency-free PHP client for the VRIO commerce API — campaigns,
@@ -8,7 +12,7 @@ logging that is redacted by default.
 > VRIO PHP SDK and is not affiliated with, endorsed by or supported by VRIO.
 > "VRIO" and related marks belong to their owner, <https://www.vrio.com/>. The
 > name is used here only to identify the API this library talks to. See
-> [LICENSE](LICENSE) for the full notice.
+> [NOTICE.md](NOTICE.md) for the full notice.
 
 API reference: **<https://docs.vrio.com/reference/vrio-api-overview>**
 
@@ -406,8 +410,8 @@ this suite makes a network call.
 
 ## Support
 
-Email **info@astermd.com**, or open an issue at
-<https://github.com/astermd/vrio-client/issues>.
+Email **hello@astermd.com**, or open an issue at
+<https://github.com/astermd/php-vrio-client/issues>.
 
 Report security issues privately — see [SECURITY.md](SECURITY.md). Do not open
 a public issue for a vulnerability.
@@ -421,4 +425,6 @@ VRIO and your payment processors remain your responsibility.
 
 ## License
 
-MIT — see [LICENSE](LICENSE), including the trademark and affiliation notice.
+MIT — see [LICENSE](LICENSE). Trademark and affiliation details are in [NOTICE.md](NOTICE.md).
+
+Maintained by [AsterMD](https://www.astermd.com/). Contact: hello@astermd.com

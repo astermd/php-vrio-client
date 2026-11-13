@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Documentation and package metadata only: repository renamed to `php-vrio-client`, contact email updated, trademark notice moved to `NOTICE.md`.
+
 ## [0.0.1] - 2026-08-16
 
 First public release.
@@ -56,5 +60,5 @@ First public release.
   method and asserting URL, HTTP method, headers and request body, running on
   PHP 8.4 and 8.5 in CI.
 
-[Unreleased]: https://github.com/astermd/vrio-client/compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/astermd/vrio-client/releases/tag/v0.0.1
+[Unreleased]: https://github.com/astermd/php-vrio-client/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/astermd/php-vrio-client/releases/tag/v0.0.1

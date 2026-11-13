@@ -4,7 +4,7 @@
 
 Please report security issues privately. **Do not open a public GitHub issue.**
 
-Email **info@astermd.com** with:
+Email **hello@astermd.com** with:
 
 - a description of the issue and the impact you believe it has,
 - the package version and PHP version affected,
@@ -14,7 +14,7 @@ We aim to acknowledge a report within 5 business days and to agree a
 disclosure timeline with you before any public write-up.
 
 You may also use GitHub's private vulnerability reporting on
-<https://github.com/astermd/vrio-client/security/advisories/new>.
+<https://github.com/astermd/php-vrio-client/security/advisories/new>.
 
 ## Supported versions
 
